@@ -1,0 +1,88 @@
+.cart-items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 5rem;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.delivery-header{
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.Select-all-box{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.item-details-container {
+  display: grid;
+  grid-template-columns: 20rem 30rem 1fr 1fr;
+  justify-content: space-between;
+  align-items: start;
+  line-height: 3.5rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  gap: 3rem;
+
+}
+
+.item-image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0;  
+}
+
+.item-image{
+  width: 15rem;
+  height: 15rem;
+  border: 1px solid #ccc;
+}
+
+.item-details p{
+  line-height: 4rem;
+}
+
+.price{
+  color: #3b3c4b;
+  font-weight: bold;
+}
+
+.update-quantity-container{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.update-qty-button{
+  border: 1px solid #545252;
+  padding: .2rem 1.3rem;
+}
+
+.qty-input{
+  width: 6.5rem;
+  text-align: center;
+  border: 1px solid #c9c1c1;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+.noCart{
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+}

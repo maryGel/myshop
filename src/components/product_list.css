@@ -1,0 +1,175 @@
+.product-list-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 3rem;
+  gap: 2rem;
+  background-color:rgb(225, 230, 230);
+}
+
+.product-list-container{
+  width: 100%;
+  height: 65rem;
+  border: 1px solid rgb(193, 191, 191);
+  background-color: white;
+}
+
+.product-pic{
+  width: 100%;
+  height: 33rem;
+  border: 1px solid lightgray;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.product-list-container p{
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: .1rem;
+  padding: 1rem;
+  height: 8rem;
+}
+
+.product-rating-container{
+  padding: 0 1rem 0 2rem;
+  width: 17rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  letter-spacing: .1rem;
+  color: green;
+}
+
+.product-price{
+  padding: 1.5rem 1rem 0 2rem;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.product-quantity-container{
+  width: 8rem;
+  padding: 1rem;
+  border: 1px solid #010000;
+  border-radius: .8rem;
+  margin: 1rem 0 0 2rem;
+}
+
+.quantity-selector{
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  letter-spacing: .5rem;
+}
+
+.cart-button-box{
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+
+}
+
+.cart-button{
+  font-size: 2rem;
+  padding: .8rem 2rem;
+  border: 1.5px solid rgb(108, 102, 102);
+  background-color: rgb(238, 245, 239);
+  color: black;
+  cursor: pointer;
+}
+
+.cart-button:hover{
+  border: none;
+  background-color: rgb(64, 61, 61);
+  color: white;
+}
+
+
+/* 📱 Responsive Styles */
+
+
+
+/* L 13-inch macbook 1440px / 16px = 90rem */
+@media  (max-width: 90rem ) {
+  .product-list-section{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3rem;
+    gap: 2rem;
+  }
+}
+
+/* L 12-inch laptops Ipad Pro 12.9 1024px / 16px = 64rem */          
+
+@media  (max-width: 64rem ){
+  .product-list-section{
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 3rem;
+    gap: 2rem;
+  }
+}
+
+/* MD tablets 848px / 16px = 53rem*/
+@media  (max-width: 848px), (max-width: 889px) {
+  .product-list-section{
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+
+}
+
+/* MD tablets 819px */
+@media  (max-width: 818px) {
+  .product-list-section{
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+
+}
+
+/* MD tables 750px / 16px = 46.87rem */
+@media (max-width: 750px) {
+  .product-list-section{
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
+
+/* SM Small phones 500px / 16px = 31.25rem */
+/* S Small phones 430px / 16px = 26.875rem */
+
+@media (max-width: 430px ), (max-width: 500px ) {
+
+  .product-list-section{
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .product-list-container{
+    width: 100%;
+    height: 73rem;
+    border: 1px solid rgb(193, 191, 191);
+    background-color: white;
+  }
+
+  .product-pic{
+    width: 100%;
+    height: 40rem;
+    border: 1px solid lightgray;
+    object-fit: cover;
+    cursor: pointer;
+  }
+
+  .product-list-container p{
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    padding: 1rem;
+    height: 8rem;
+  }
+
+  
+
+
+
+}

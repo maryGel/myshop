@@ -1,0 +1,30 @@
+.homepage-layout {
+  height: auto;
+  background-color: rgb(241, 245, 244);
+  width: 100%;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+  /* L 11-inch laptops 1024px / 16px = 64rem */          
+  /* XL 14-inch laptops 1440px / 16px = 90rem */
+  @media  (max-width: 64rem ) {
+
+  .homepage-layout{
+    padding: 0;
+  }
+  
+  }
+
+/* SM Small phones 500px / 16px = 31.25rem*/
+/* MD tables 750px / 16px = 46.87rem*/
+/* L 12-inch laptops Ipad Pro 12.9 1024px / 16px = 64rem */  
+@media  (max-width: 31.25rem ), (max-width: 47rem) {
+  .homepage-layout {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+}

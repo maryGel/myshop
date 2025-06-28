@@ -1,0 +1,75 @@
+.carouselContainer {
+  width: 100%;
+  margin: auto;
+  height: 70rem; /* Full height of the viewport */
+  display: flex;
+  justify-content: center;
+  background-color: rgb(107, 246, 248);
+}
+
+.carouselItem {
+  height: 70rem; /* Adjust as needed */
+
+}
+
+.carouselImage {
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+
+}
+
+
+
+  /* MD tables 848px / 16px = 53rem*/
+
+@media  (max-width: 53rem) {
+
+  .carouselContainer {
+    width: 100%;
+    height: 47rem; /* Full height of the viewport */
+  }
+
+  .carouselItem {
+    height:47rem; /* Adjust as needed */
+
+  }
+  
+  .carouselImage {
+    height: auto;
+    width: 100%;
+    margin: auto;
+  }
+
+
+/* 📱 Responsive Styles */
+}
+
+@media  (max-width: 430px ), (max-width: 500px ) {
+  /* SM Small phones 500px / 16px = 31.25rem*/
+  /* MD tables 750pc / 16px = 46.87rem*/
+  
+
+  html {
+    font-size: 30.25%;
+  }
+
+  .carouselContainer {
+    width: 100%;
+    height: 50rem; /* Full height of the viewport */
+    margin-top: 2rem;
+  }
+
+    .carouselItem {
+    height: 50rem; /* Adjust as needed */
+ 
+  }
+  
+    .carouselImage {
+    height: 100%;
+    width: 100%;
+    margin: .7rem auto;
+  }
+
+}
+

@@ -1,0 +1,240 @@
+
+/* 📱 Responsive Styles */
+
+/* XL 16-inch MacBook Pro 16" 1728px / 16px = 108rem */
+@media  (max-width: 108rem ) {
+
+
+  html {
+    font-size: 50%;
+    /* 16px x 50% = 8px */
+  }
+
+}
+
+/* L 13-inch macbook 1440px / 16px = 90rem */
+@media  (max-width: 90rem ) {
+  html {
+    font-size: 50%;
+    /* 16px x 50% = 8px */
+  }
+
+  .search-bar{
+    flex-grow: 1;
+  }
+
+}
+
+/* L 12-inch laptops Ipad Pro 12.9 1024px / 16px = 64rem */          
+
+@media  (max-width: 64rem ){
+  
+  .header-top{
+    font-size: 1.8rem;
+  }
+
+  .header{
+    height: 15rem;
+    gap: 5rem;
+  }
+
+
+  .logo-container{
+    width: 40rem;
+    padding: auto;
+  }
+  
+  .logo{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .search-bar-container{
+    width: 50rem;
+    justify-content: end;
+  }
+
+  .search-bar{
+    display: flex;
+  }
+
+  .single-search-icon{
+    display: none;
+    padding: 1rem;
+  }
+
+
+  .header-list{
+    display: flex;
+    gap: 3rem;
+    padding-right:3.5rem;
+  }
+  
+  .header-list span{
+    font-size: 3rem;
+  }
+
+  .menu-icon{
+    display: none;
+  }
+
+}
+
+/* MD tablets 848px / 16px = 53rem*/
+@media  (max-width: 848px), (max-width: 889px) {
+
+  .header-top{
+    font-size: 1.5rem;
+  }
+
+  .header-content{
+    flex: 1;
+    justify-content: end;
+  }
+
+  .search-bar-container{
+    padding: 1rem;
+    width: 30rem;
+
+  }
+
+  .search-bar{
+    display: none;
+  }
+
+  .single-search-icon{
+    display: flex;
+    padding: 1rem;
+  }
+
+  .header-icons-container{
+    padding: 0;
+  }
+
+  .header-list{
+    padding: 0;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+}
+
+/* MD tablets 819px */
+@media  (max-width: 818px) {
+
+  .menu-icon {
+    display: flex;
+  }
+
+}
+
+/* MD tables 750px / 16px = 46.87rem */
+@media (max-width: 750px) {
+  .header-top{
+    font-size: 1.5rem;
+  }
+
+  .logo-container{
+    padding: 0;
+  }
+
+  .header{
+    height: 12rem;
+    gap: 1rem;
+  }
+
+  .header-content{
+    width: 10rem;
+  }
+
+  .single-search-icon{
+    padding: 1rem;
+  }
+
+  .search-bar-container{
+    width: 40rem;
+    justify-content: end;
+    padding: 2rem;
+  }
+
+  .single-search-icon{
+    border: 1px solid grey;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: .5rem;
+    font-size: 5rem;
+  }
+
+
+  .search-icon{
+    font-size: 4rem;
+  }
+
+  .header-list{
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+  }
+  
+  .header-list span{
+    font-size: 3.5rem;
+  }
+
+  .menu-icon{
+    display: flex;
+  }
+
+}
+
+/* SM Small phones 500px / 16px = 31.25rem */
+/* S Small phones 430px / 16px = 26.875rem */
+
+@media (max-width: 430px ), (max-width: 500px ) {
+  .header-top{
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+
+  }
+
+  .header-content{
+    width: 10rem;
+    padding: 1rem;
+  }
+
+  .search-bar-container{
+    width: 35rem;
+    justify-content: end;
+    padding: 2rem;
+  }
+
+  .single-search-icon{
+    border: 1px solid grey;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: .8rem;
+    font-size: 5rem;
+  }
+
+  
+  .search-icon{
+    font-size: 3rem;
+  }
+
+  .header-icons-container{
+    padding: 0;
+  }
+
+  .header-list{
+    gap: .1rem;
+    padding: 0;
+  }
+
+  .header-list span{
+    font-size: 3.5rem;
+  }
+
+
+}

@@ -1,0 +1,93 @@
+/* 
+Height:
+  header-top : 5rem,
+  header : 15rem
+*/
+
+.menu-container{
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 246, 247);
+}
+
+.menu-list{
+  display: flex;
+  flex-direction: row;
+  gap: 12rem;
+  font-size: 2rem;
+  font-family: "Archivo", sans-serif;
+  font-weight: 550;
+}
+
+
+.menu-list a{
+  color: black;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  cursor: pointer;
+
+}
+
+.menu-item:hover {
+  color: rgb(93, 89, 89);
+  font-weight: 700;
+  box-shadow: 1px white;
+  text-decoration: underline;
+}
+
+/* MD tablets 1015px */
+@media  (max-width: 1015px) {
+
+
+  .menu-list{
+    gap: 7rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+
+/* MD tablets 848px / 16px = 53rem*/
+@media  (max-width: 53rem) {
+
+
+  .menu-list{
+    gap: 7rem;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+}
+
+
+/* MD tables 750px / 16px = 46.87rem */
+@media (max-width: 750px ), (max-width: 818px) {
+
+  .menu-container{
+    display: none;
+  }
+
+}
+
+/* SM Small phones 500px / 16px = 31.25rem */
+/* MD tables 750px / 16px = 46.87rem */
+@media  (max-width: 31.25rem ) {
+  .menu-container {
+    width: 100%;
+    margin: auto;
+    margin-top: 19rem;
+    
+  }
+}
+
+.list-container{
+  width: 100%;
+  height:100rem;
+  background-color: aquamarine;
+  display: flex;
+  position: relative;
+  z-index: 10001;
+}
+
+

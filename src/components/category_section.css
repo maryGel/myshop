@@ -1,0 +1,158 @@
+.product-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2.8rem;
+  margin: 3rem;
+  line-height: 5rem;
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  line-height: 8rem;  
+}
+
+.product-img {
+  width: 50rem;
+  height: 50rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.product-img:hover {
+  opacity: .5;
+}
+
+
+
+.category{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.category p:hover{
+  font-size: 3.5;
+  font-weight: 500;
+  text-decoration: underline;
+
+}
+
+/* 📱 Responsive Styles */
+
+
+/* L 11-inch laptops 1024px / 16px = 64rem */          
+/* XL 14-inch laptops 1440px / 16px = 90rem */
+@media  (max-width: 64rem ) {
+
+  .product-img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .category{
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
+
+
+}
+
+/* MD tables 848px / 16px = 53rem*/
+
+@media  (max-width: 53rem) {
+
+  .product-text{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  
+
+  .category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .product-img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .category{
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
+
+}
+
+
+/* MD tables 750px / 16px = 46.87rem*/
+@media (max-width: 47rem) {
+
+  .product-text{
+    font-size: 2rem;
+    line-height: 3rem;
+  }  
+
+  .category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    gap: 2rem;
+    margin: auto;
+  }
+
+  .product-img{
+    width: 28rem;
+    height: 28rem;
+  }
+
+  .category{
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
+
+
+}
+
+/* SM Small phones 500px / 16px = 31.25rem */
+@media  (max-width: 500px ) {
+
+  html {
+    font-size: 30.25%;
+  }
+
+  .category-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    line-height: 7rem;    
+  }
+
+  .product-text p{
+    font-size: 2.5rem;
+    padding: 1rem;
+    line-height: 3rem;
+  }
+  
+  .product-img {
+    width: 50em;
+    height: 45rem;
+    object-fit: cover;  
+  }
+  
+  .category{
+    padding-left: 3rem;
+  }
+  
+  .category p:hover{
+    font-size: 3.5;
+    font-weight: 500;
+    text-decoration: underline;
+  
+  }
+
+}

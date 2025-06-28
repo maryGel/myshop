@@ -1,0 +1,40 @@
+.delivery-options-container{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2rem;
+  min-width: 50rem;
+  margin: auto;
+}
+
+.delivery-options-container p{
+  font-size: 2rem;
+  color: #333;
+  font-weight: 500;
+
+}
+
+.delivery-option{
+  display: grid;
+  grid-template-columns: 2rem 1fr 1fr;
+  gap: 2rem;
+  font-size: 1.9rem;
+  padding: 1rem;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  
+}
+
+.delivery-option-input{
+  width: 2rem;
+  height: 2rem;
+  
+}
+
+.delivery-option-date{
+  font-weight: 700;
+  color: rgb(37, 37, 107);
+  
+}
