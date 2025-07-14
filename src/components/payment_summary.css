@@ -1,11 +1,5 @@
 .payment-summary {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #dee2e6;
-  border-radius: 0.375rem;
-  padding: 8rem 15rem;
-  margin:  .5rem 25rem;
-  font-family: Tahoma;
+
 }
 
 .payment-summary-title{

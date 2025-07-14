@@ -85,16 +85,16 @@ function UpdateQuantity ({ cart, cartItem, loadCart }) {
   };
   
   return(
-    <div key= {cartItem.id} className='update-quantity-container'>
-    <button onClick= {minusCount} className='update-qty-button'>-</button>
+    <div key= {cartItem.id} className='flex items-center justify-center h-20 gap-10 my-20'>
+    <button onClick= {minusCount} className='h-auto p-5 border border-gray-400'>-</button>
     <input 
       type='text' 
       value={updateCart} 
       onChange={handleInputChange} 
       onBlur={handleBlur}
-      className='qty-input' 
+      className='flex items-center justify-center w-20 p-5 text-4xl text-center border border-gray-400' 
     />
-    <button onClick= {plusCount} className='update-qty-button'>+</button>
+    <button onClick= {plusCount} className='h-auto p-5 border border-gray-400'>+</button>
   </div>  
   );
 }

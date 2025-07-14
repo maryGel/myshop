@@ -39,10 +39,10 @@ function CheckOutPage({
     <div>
       <Header cart = {cart}
       />
-      <div className='checkout-container'>
+      <div className='flex justify-center w-full m-auto text-5xl checkout-container'>
         <h1 className='checkout-title'>Checkout ( {paymentSummary.totalItems || 0 } items )</h1>
       </div>
-      <div className='checkout-grid'>
+      <div className='mt-10 checkout-grid'>
         <CartItems 
           cart = {cart}
           loadCart = {loadCart}

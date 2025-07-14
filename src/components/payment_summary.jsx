@@ -18,7 +18,7 @@ function PaymentSummary({paymentSummary, loadCart}) {
   };
 
   return (
-    <div className="payment-summary">
+    <div className="m-20 mt-32 md:mx-32 lg:mx-96 lg:px-40">
       <div className="payment-summary-title">
         Payment Summary
       </div>
